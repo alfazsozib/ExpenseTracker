@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    background-color: rgb(147, 207, 5);
+    width: 600px;
+    height: 100%;
+    padding: 10px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#expense-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgba(1, 1, 31, 0.87);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:rgba(44, 73, 5, 0.87);
+}
+
+h2{
+
+    text-align: center;
+    color: white;
+}
+
+#expense-list > li{
+list-style: none;
+}
+
+#total{
+    text-align: center;
+}
+
+
+
+
+
+#expense-list{
+    padding: 20px;
+    color: white;
+}
+
+.expense-item{
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li-name{
+    width: 200px;
+}
